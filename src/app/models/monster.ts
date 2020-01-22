@@ -2,7 +2,7 @@ export class Monster{
     monsterId: number;
     monsterName: string;
     description: string;
-    familyIf: number;
+    familyId: number;
     hp: number;
     sp: number;
     atk: number;

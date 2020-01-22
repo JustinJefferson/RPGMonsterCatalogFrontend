@@ -1,1 +1,19 @@
-<p>monster works!</p>
+<div>
+    <div *ngFor="let monster of monsters">
+        <div class="card">
+            <div class="card-body">
+                <h3>{{ monster.monsterName }}</h3>
+                <p>{{ monster.descriptoin }}</p>
+                <p>
+                    ID: {{ monster.monsterId }}<br>
+                    FAMILY ID: {{ monster.familyId  }}<br>
+                    PREVOLUTION ID: {{ preEvolutionId }}<br>
+                    HP: {{ monster.hp }} | SP: {{ monster.sp }}<br>
+                    ATK: {{ monster.atk }} | DEF: {{ monster.def }}<br>
+                    STR: {{ monster.strength }} | DEX: {{ monster. dexterity }} | INT: {{ monster.intelligence }}<br>
+                    AGI: {{ monster.agility }} | LUC: {{ monster.luck }}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>>
