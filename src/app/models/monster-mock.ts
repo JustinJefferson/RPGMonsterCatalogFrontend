@@ -18,7 +18,7 @@ export const MONSTERS: Monster[] = [
         preEvolutionId: null
     },
     {
-        monsterId: 1,
+        monsterId: 0,
         monsterName: 'Swanda',
         description: 'A swan monster',
         familyId: 5,
